@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./build/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        vikings: ["Skranji"],
+        norse: ["Norse"],
+      },
+    },
   },
   plugins: [],
 };

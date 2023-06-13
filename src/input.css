@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Skranji&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @font-face {
+    font-family: Norse;
+    src: url(/build/fonts/Norsebold.otf);
+  }
+}
