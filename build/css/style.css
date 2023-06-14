@@ -1807,8 +1807,8 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'build\/img\/background_photo\.jpg\'\)\]{
-  background-image: url('build/img/background_photo.jpg');
+.bg-\[url\(\'\/build\/img\/background_photo\.jpg\'\)\]{
+  background-image: url('/build/img/background_photo.jpg');
 }
 
 .decoration-slice{
