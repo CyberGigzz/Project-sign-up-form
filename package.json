@@ -4,7 +4,7 @@
   "description": "Sign up form",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i build/src/input.css -o buidl/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i build/src/input.css -o build/css/style.css --watch"
   },
   "author": "Giga",
   "license": "ISC",
