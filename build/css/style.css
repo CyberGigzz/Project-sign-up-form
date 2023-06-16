@@ -1819,6 +1819,14 @@ video {
   background-image: url('../img/background_photo.jpg');
 }
 
+.bg-\[url\(\'\.\.bui\/img\/background_photo\.jpg\'\)\]{
+  background-image: url('..bui/img/background_photo.jpg');
+}
+
+.bg-\[url\(\'\.\.build\/img\/background_photo\.jpg\'\)\]{
+  background-image: url('..build/img/background_photo.jpg');
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
