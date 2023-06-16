@@ -12,9 +12,9 @@
     />
   </head>
   <body class="min-h-screen flex font-serif">
-    <main class="flex flex-1">
+    <main class="flex flex-col lg:flex-row flex-1">
       <div
-        class="flex flex-col justify-between items-center gap-16 bg-[url('../build/img/background_photo.jpg')] bg-no-repeat bg-cover flex-[4.5] text-white"
+        class="flex flex-col justify-between items-center gap-16 bg-[url('../img/background_photo.jpg')] bg-no-repeat bg-cover flex-[4.5] text-white"
       >
         <div
           class="flex justify-center items-center gap-2 bg-black bg-opacity-40 w-full mt-36"
@@ -57,9 +57,9 @@
           </p>
         </div>
 
-        <div class="py-5 pl-10 pr-20 bg-white shadow-md rounded">
-          <form action="#" class="grid grid-cols-2">
-            <h3 class="text-xl mb-3 text-black col-span-2">Let's do this!</h3>
+        <div class="py-5 pl-10 lg:pr-20 pr-10 bg-white shadow-md rounded">
+          <form action="#" class="grid lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-2">
+            <h3 class="text-xl mb-3 text-black lg:col-span-2 md:col-span-3 sm:col-span-2 text-center">Let's do this!</h3>
 
             <div class="mb-2">
               <label for="first_name" class="block text-sm font-semibold mb-1"
@@ -132,7 +132,7 @@
           </form>
         </div>
 
-        <div class="mt-2 p-5 pl-10">
+        <div class="lg:mt-2 lg:p-5 lg:pl-10 flex justify-center py-5">
           <button
             class="bg-[#596D48] hover:bg-[#6F8359] text-white font-bold py-2 px-12 rounded transition duration-300 ease-in-out"
           >
@@ -140,8 +140,8 @@
           </button>
         </div>
 
-        <p class="my-5 mx-10">
-          Already have an account? <a class="text-[#596D48]" href="#">Log in</a>
+        <p class="lg:my-5 lg:mx-10 flex justify-center py-2">
+          Already have an account? <a class="text-[#596D48] ml-4" href="#">Log in</a>
         </p>
       </div>
     </main>
