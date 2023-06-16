@@ -2492,7 +2492,7 @@ video {
 @font-face {
   font-family: Norse;
 
-  src: url('/build/fonts/Norsebold.otf');
+  src: url('../fonts/Norsebold.otf');
 }
 
 @media (min-width: 640px){
