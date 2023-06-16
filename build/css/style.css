@@ -2672,6 +2672,18 @@ video {
     margin-top: 0.5rem;
   }
 
+  .lg\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:inline-block{
+    display: inline-block;
+  }
+
   .lg\:flex{
     display: flex;
   }
